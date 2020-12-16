@@ -1,0 +1,20 @@
+*
+* Author : Isabelle
+*Date : 16-Dec-2020 
+*Description de code: Ce code une correction du code donné pour l'affectation. 
+*J'avais le même objectif mais je réalise l'objectif d'une manière claire et plus efficace.
+*/
+public class Erreurs
+	{
+public static void main(String[]args)
+{
+		String saluerAmi = "Bonjour mon ami "; //declaration de saluerAmi
+	System.out.println(saluerAmi + "John");
+	
+}
+	}
+/* Erreur 1: Ajoute static sur ligne 4 sur la code sur classroom.
+ * Erreur 2: Decalre saluerAmi .
+ * Erreur 3: N'utilisez pas la ligne 13, cela vous obligera à re-déclarer les variables d'en haut.
+ * Erreur 4: n'utilisez pas la variable a, cela crée de la confusion.
+ */
