@@ -1,0 +1,36 @@
+/*
+* Author : Isabelle
+*Date : 16-Dec-2020 
+*Description:Ce code prend les nombres impairs d'un tableau de 20 nombres 
+*et calcule la moyenne de ces nombres inpaire.
+*/
+public class Moyenne_des_nombres_impairs
+	{
+
+		public static int Nunpaire(int i ) 
+			{
+			
+			
+					
+					    int arr[]={5,10,15,20,25,30,40,13,24,56,44,33,67,89,12,5,6,11,9,77};  
+					    int i,inpaireSomme=0, Nunpaire=0,Pairesomme=0,Npaire=0  ;
+					    double moyenne;
+					    for(int a = 0; a<20; a++)
+					    {  
+					        if(arr[a]%2==0)
+					        {
+					        Pairesomme=Pairesomme+arr[a]; 
+					        Npaire++;
+					        }
+					    else{
+					             Pairesomme=inpaireSomme+arr[a];  
+					             Nunpaire++;
+					        }
+					    }
+					    moyenne=inpaireSomme/Nunpaire;  
+					    System.out.println("The average of odd numbers are: %.2f"+moyenne); 
+					    return 0;
+				
+			}
+
+	}
